@@ -21,6 +21,17 @@ export default function RootLayout({
           property="og:image"
           content="https://handle-100k-products.vercel.app/api/og"
         />
+        <meta name="twitter:card" content="SUMMARY" />
+        <meta name="twitter:title" content="Handle 100k" />
+        <meta name="twitter:description" content="Handle 100k products" />
+        <meta
+          name="twitter:url"
+          content="https://handle-100k-products.vercel.app/"
+        />
+        <meta
+          name="twitter:image"
+          content="https://handle-100k-products.vercel.app/api/og"
+        />
       </Head>
 
       <body className={inter.className}>{children}</body>
